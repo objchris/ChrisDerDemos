@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1FC2CCB1C7B3CBE00914929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FC2CCA1C7B3CBE00914929 /* main.m */; };
+		E1FC2CCE1C7B3CBE00914929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FC2CCD1C7B3CBE00914929 /* AppDelegate.m */; };
+		E1FC2CD11C7B3CBE00914929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FC2CD01C7B3CBE00914929 /* ViewController.m */; };
+		E1FC2CD41C7B3CBE00914929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FC2CD21C7B3CBE00914929 /* Main.storyboard */; };
+		E1FC2CD61C7B3CBE00914929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1FC2CD51C7B3CBE00914929 /* Assets.xcassets */; };
+		E1FC2CD91C7B3CBE00914929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1FC2CD71C7B3CBE00914929 /* LaunchScreen.storyboard */; };
+		E1FC2CE71C7B44E900914929 /* EZRecycleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1FC2CE61C7B44E900914929 /* EZRecycleImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1FC2CC61C7B3CBE00914929 /* EZRecycleImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZRecycleImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1FC2CCA1C7B3CBE00914929 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1FC2CCC1C7B3CBE00914929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1FC2CCD1C7B3CBE00914929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1FC2CCF1C7B3CBE00914929 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1FC2CD01C7B3CBE00914929 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1FC2CD31C7B3CBE00914929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1FC2CD51C7B3CBE00914929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1FC2CD81C7B3CBE00914929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1FC2CDA1C7B3CBE00914929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1FC2CE51C7B44E900914929 /* EZRecycleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRecycleImageView.h; sourceTree = "<group>"; };
+		E1FC2CE61C7B44E900914929 /* EZRecycleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRecycleImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1FC2CC31C7B3CBE00914929 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1FC2CBD1C7B3CBE00914929 = {
+			isa = PBXGroup;
+			children = (
+				E1FC2CC81C7B3CBE00914929 /* EZRecycleImageView */,
+				E1FC2CC71C7B3CBE00914929 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1FC2CC71C7B3CBE00914929 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1FC2CC61C7B3CBE00914929 /* EZRecycleImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1FC2CC81C7B3CBE00914929 /* EZRecycleImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E1FC2CCC1C7B3CBE00914929 /* AppDelegate.h */,
+				E1FC2CCD1C7B3CBE00914929 /* AppDelegate.m */,
+				E1FC2CCF1C7B3CBE00914929 /* ViewController.h */,
+				E1FC2CD01C7B3CBE00914929 /* ViewController.m */,
+				E1FC2CD21C7B3CBE00914929 /* Main.storyboard */,
+				E1FC2CE41C7B44E900914929 /* RecycleImageView */,
+				E1FC2CD51C7B3CBE00914929 /* Assets.xcassets */,
+				E1FC2CD71C7B3CBE00914929 /* LaunchScreen.storyboard */,
+				E1FC2CDA1C7B3CBE00914929 /* Info.plist */,
+				E1FC2CC91C7B3CBE00914929 /* Supporting Files */,
+			);
+			path = EZRecycleImageView;
+			sourceTree = "<group>";
+		};
+		E1FC2CC91C7B3CBE00914929 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1FC2CCA1C7B3CBE00914929 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1FC2CE41C7B44E900914929 /* RecycleImageView */ = {
+			isa = PBXGroup;
+			children = (
+				E1FC2CE51C7B44E900914929 /* EZRecycleImageView.h */,
+				E1FC2CE61C7B44E900914929 /* EZRecycleImageView.m */,
+			);
+			path = RecycleImageView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1FC2CC51C7B3CBE00914929 /* EZRecycleImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1FC2CDD1C7B3CBE00914929 /* Build configuration list for PBXNativeTarget "EZRecycleImageView" */;
+			buildPhases = (
+				E1FC2CC21C7B3CBE00914929 /* Sources */,
+				E1FC2CC31C7B3CBE00914929 /* Frameworks */,
+				E1FC2CC41C7B3CBE00914929 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZRecycleImageView;
+			productName = EZRecycleImageView;
+			productReference = E1FC2CC61C7B3CBE00914929 /* EZRecycleImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1FC2CBE1C7B3CBE00914929 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = ezfen;
+				TargetAttributes = {
+					E1FC2CC51C7B3CBE00914929 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = X6RJBZ5YJS;
+					};
+				};
+			};
+			buildConfigurationList = E1FC2CC11C7B3CBE00914929 /* Build configuration list for PBXProject "EZRecycleImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1FC2CBD1C7B3CBE00914929;
+			productRefGroup = E1FC2CC71C7B3CBE00914929 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1FC2CC51C7B3CBE00914929 /* EZRecycleImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1FC2CC41C7B3CBE00914929 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FC2CD91C7B3CBE00914929 /* LaunchScreen.storyboard in Resources */,
+				E1FC2CD61C7B3CBE00914929 /* Assets.xcassets in Resources */,
+				E1FC2CD41C7B3CBE00914929 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1FC2CC21C7B3CBE00914929 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FC2CD11C7B3CBE00914929 /* ViewController.m in Sources */,
+				E1FC2CCE1C7B3CBE00914929 /* AppDelegate.m in Sources */,
+				E1FC2CCB1C7B3CBE00914929 /* main.m in Sources */,
+				E1FC2CE71C7B44E900914929 /* EZRecycleImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1FC2CD21C7B3CBE00914929 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FC2CD31C7B3CBE00914929 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1FC2CD71C7B3CBE00914929 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1FC2CD81C7B3CBE00914929 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1FC2CDB1C7B3CBE00914929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1FC2CDC1C7B3CBE00914929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1FC2CDE1C7B3CBE00914929 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZRecycleImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezfen.EZRecycleImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1FC2CDF1C7B3CBE00914929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EZRecycleImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezfen.EZRecycleImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1FC2CC11C7B3CBE00914929 /* Build configuration list for PBXProject "EZRecycleImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FC2CDB1C7B3CBE00914929 /* Debug */,
+				E1FC2CDC1C7B3CBE00914929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1FC2CDD1C7B3CBE00914929 /* Build configuration list for PBXNativeTarget "EZRecycleImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1FC2CDE1C7B3CBE00914929 /* Debug */,
+				E1FC2CDF1C7B3CBE00914929 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1FC2CBE1C7B3CBE00914929 /* Project object */;
+}

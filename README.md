@@ -4,4 +4,11 @@
 
 由于每个Demo都放在一个单独的文件夹里面，所以推荐[GitZip](https://kinolien.github.io/gitzip/)，下载Github单文件夹，若提示需要Github授权，可以关闭授权，重新下载即可。
 
-现有Demo：<table><thead><tr><td>文章名称</td><td>Demo地址</td></tr></thead><tr><td><a href="https://objchris.github.io/2016/07/17/类方法Block内存泄漏/">类方法的Block不会内存泄漏....吗？！</a></td><td>https://github.com/objchris/ChrisDerDemos/tree/master/ClassBlockDemo</td></tr></table>
+现有Demo：
+
+|              文章名称               |                          Demo 地址                           |
+| :---------------------------------: | :----------------------------------------------------------: |
+| 类方法的Block不会内存泄漏....吗？！ | https://github.com/objchris/ChrisDerDemos/tree/master/ClassBlockDemo |
+|             穿越的桃心~             | https://github.com/objchris/ChrisDerDemos/tree/master/EZHeartForLike |
+|      其他不在文章内的练手 Demo      | https://github.com/objchris/ChrisDerDemos/tree/master/EZQRCodeScanner<br/>https://github.com/objchris/ChrisDerDemos/tree/master/EZRecycleImageView<br/>https://github.com/objchris/ChrisDerDemos/tree/master/EZViewBorder |
+
