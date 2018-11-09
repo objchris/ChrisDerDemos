@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C09325441CC9B5E400476928 /* DigestController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09325431CC9B5E400476928 /* DigestController.m */; settings = {ASSET_TAGS = (); }; };
+		C09325471CC9BA2B00476928 /* SignatureController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09325461CC9BA2B00476928 /* SignatureController.m */; settings = {ASSET_TAGS = (); }; };
+		C093254B1CC9C57400476928 /* SuperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C093254A1CC9C57400476928 /* SuperViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C09325521CCA024300476928 /* HMacActor.m in Sources */ = {isa = PBXBuildFile; fileRef = C09325511CCA024300476928 /* HMacActor.m */; settings = {ASSET_TAGS = (); }; };
+		C09325551CCA05F500476928 /* HMacController.m in Sources */ = {isa = PBXBuildFile; fileRef = C09325541CCA05F500476928 /* HMacController.m */; settings = {ASSET_TAGS = (); }; };
+		C0C9C3611CC7304000E18CF7 /* PwdCipherController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C9C3601CC7304000E18CF7 /* PwdCipherController.m */; settings = {ASSET_TAGS = (); }; };
+		E14C3E661CC607A10037EB83 /* AsymCipherController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14C3E651CC607A10037EB83 /* AsymCipherController.m */; };
+		E14C3E691CC6087A0037EB83 /* AsymCipherDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14C3E681CC6087A0037EB83 /* AsymCipherDetailController.m */; };
+		E14C3E6C1CC61AE10037EB83 /* KeyPairDispatchController.m in Sources */ = {isa = PBXBuildFile; fileRef = E14C3E6B1CC61AE10037EB83 /* KeyPairDispatchController.m */; };
+		E1A0FBDE1CC4C92600B8CDEC /* SymCipherController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A0FBDD1CC4C92600B8CDEC /* SymCipherController.m */; };
+		E1A0FBE11CC4CECB00B8CDEC /* SymCipherDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A0FBE01CC4CECB00B8CDEC /* SymCipherDetailController.m */; };
+		E1C9BB781CC47C7400ADE365 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BB701CC47C7400ADE365 /* AppDelegate.m */; };
+		E1C9BB791CC47C7400ADE365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1C9BB711CC47C7400ADE365 /* Assets.xcassets */; };
+		E1C9BB7A1CC47C7400ADE365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C9BB721CC47C7400ADE365 /* LaunchScreen.storyboard */; };
+		E1C9BB7B1CC47C7400ADE365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1C9BB741CC47C7400ADE365 /* Main.storyboard */; };
+		E1C9BB7C1CC47C7400ADE365 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1C9BB761CC47C7400ADE365 /* Info.plist */; };
+		E1C9BB7D1CC47C7500ADE365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BB771CC47C7400ADE365 /* main.m */; };
+		E1C9BBB91CC480E400ADE365 /* KeyPairGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BB861CC480E400ADE365 /* KeyPairGenerator.m */; };
+		E1C9BBBA1CC480E400ADE365 /* RSACipherActor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BB881CC480E400ADE365 /* RSACipherActor.m */; };
+		E1C9BBBB1CC480E400ADE365 /* DigestActor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BB8F1CC480E400ADE365 /* DigestActor.m */; };
+		E1C9BBBC1CC480E400ADE365 /* PwdCipherActor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BB9B1CC480E400ADE365 /* PwdCipherActor.m */; };
+		E1C9BBBD1CC480E400ADE365 /* SignatureActor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BBA21CC480E400ADE365 /* SignatureActor.m */; };
+		E1C9BBBE1CC480E400ADE365 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BBA91CC480E400ADE365 /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E1C9BBBF1CC480E400ADE365 /* AESCipherActor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BBAE1CC480E400ADE365 /* AESCipherActor.m */; };
+		E1C9BBC01CC480E400ADE365 /* DESCipherActor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BBB01CC480E400ADE365 /* DESCipherActor.m */; };
+		E1C9BBC11CC480E400ADE365 /* RC4CipherActor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BBB21CC480E400ADE365 /* RC4CipherActor.m */; };
+		E1C9BBC21CC480E400ADE365 /* SymCipherActor.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BBB51CC480E400ADE365 /* SymCipherActor.m */; };
+		E1C9BBC91CC4BA0700ADE365 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BBC61CC4BA0700ADE365 /* ViewController.m */; };
+		E1C9BBCC1CC4BAE000ADE365 /* MainEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1C9BBCB1CC4BAE000ADE365 /* MainEffectView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C09325421CC9B5E400476928 /* DigestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigestController.h; sourceTree = "<group>"; };
+		C09325431CC9B5E400476928 /* DigestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigestController.m; sourceTree = "<group>"; };
+		C09325451CC9BA2B00476928 /* SignatureController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureController.h; sourceTree = "<group>"; };
+		C09325461CC9BA2B00476928 /* SignatureController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureController.m; sourceTree = "<group>"; };
+		C09325491CC9C57400476928 /* SuperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SuperViewController.h; sourceTree = "<group>"; };
+		C093254A1CC9C57400476928 /* SuperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SuperViewController.m; sourceTree = "<group>"; };
+		C09325501CCA024300476928 /* HMacActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMacActor.h; sourceTree = "<group>"; };
+		C09325511CCA024300476928 /* HMacActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMacActor.m; sourceTree = "<group>"; };
+		C09325531CCA05F500476928 /* HMacController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMacController.h; sourceTree = "<group>"; };
+		C09325541CCA05F500476928 /* HMacController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMacController.m; sourceTree = "<group>"; };
+		C0C9C35F1CC7304000E18CF7 /* PwdCipherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwdCipherController.h; sourceTree = "<group>"; };
+		C0C9C3601CC7304000E18CF7 /* PwdCipherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwdCipherController.m; sourceTree = "<group>"; };
+		E14C3E641CC607A10037EB83 /* AsymCipherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsymCipherController.h; sourceTree = "<group>"; };
+		E14C3E651CC607A10037EB83 /* AsymCipherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsymCipherController.m; sourceTree = "<group>"; };
+		E14C3E671CC6087A0037EB83 /* AsymCipherDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsymCipherDetailController.h; sourceTree = "<group>"; };
+		E14C3E681CC6087A0037EB83 /* AsymCipherDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsymCipherDetailController.m; sourceTree = "<group>"; };
+		E14C3E6A1CC61AE10037EB83 /* KeyPairDispatchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPairDispatchController.h; sourceTree = "<group>"; };
+		E14C3E6B1CC61AE10037EB83 /* KeyPairDispatchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyPairDispatchController.m; sourceTree = "<group>"; };
+		E1A0FBDC1CC4C92600B8CDEC /* SymCipherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymCipherController.h; sourceTree = "<group>"; };
+		E1A0FBDD1CC4C92600B8CDEC /* SymCipherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymCipherController.m; sourceTree = "<group>"; };
+		E1A0FBDF1CC4CECB00B8CDEC /* SymCipherDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymCipherDetailController.h; sourceTree = "<group>"; };
+		E1A0FBE01CC4CECB00B8CDEC /* SymCipherDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymCipherDetailController.m; sourceTree = "<group>"; };
+		E1C9BB6F1CC47C7400ADE365 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1C9BB701CC47C7400ADE365 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1C9BB711CC47C7400ADE365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1C9BB731CC47C7400ADE365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1C9BB751CC47C7400ADE365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1C9BB761CC47C7400ADE365 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1C9BB771CC47C7400ADE365 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1C9BB851CC480E400ADE365 /* KeyPairGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyPairGenerator.h; sourceTree = "<group>"; };
+		E1C9BB861CC480E400ADE365 /* KeyPairGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyPairGenerator.m; sourceTree = "<group>"; };
+		E1C9BB871CC480E400ADE365 /* RSACipherActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSACipherActor.h; sourceTree = "<group>"; };
+		E1C9BB881CC480E400ADE365 /* RSACipherActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSACipherActor.m; sourceTree = "<group>"; };
+		E1C9BB8E1CC480E400ADE365 /* DigestActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigestActor.h; sourceTree = "<group>"; };
+		E1C9BB8F1CC480E400ADE365 /* DigestActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigestActor.m; sourceTree = "<group>"; };
+		E1C9BB9A1CC480E400ADE365 /* PwdCipherActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PwdCipherActor.h; sourceTree = "<group>"; };
+		E1C9BB9B1CC480E400ADE365 /* PwdCipherActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PwdCipherActor.m; sourceTree = "<group>"; };
+		E1C9BBA11CC480E400ADE365 /* SignatureActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureActor.h; sourceTree = "<group>"; };
+		E1C9BBA21CC480E400ADE365 /* SignatureActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureActor.m; sourceTree = "<group>"; };
+		E1C9BBA81CC480E400ADE365 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		E1C9BBA91CC480E400ADE365 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		E1C9BBAA1CC480E400ADE365 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		E1C9BBAD1CC480E400ADE365 /* AESCipherActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCipherActor.h; sourceTree = "<group>"; };
+		E1C9BBAE1CC480E400ADE365 /* AESCipherActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCipherActor.m; sourceTree = "<group>"; };
+		E1C9BBAF1CC480E400ADE365 /* DESCipherActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESCipherActor.h; sourceTree = "<group>"; };
+		E1C9BBB01CC480E400ADE365 /* DESCipherActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESCipherActor.m; sourceTree = "<group>"; };
+		E1C9BBB11CC480E400ADE365 /* RC4CipherActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RC4CipherActor.h; sourceTree = "<group>"; };
+		E1C9BBB21CC480E400ADE365 /* RC4CipherActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RC4CipherActor.m; sourceTree = "<group>"; };
+		E1C9BBB41CC480E400ADE365 /* SymCipherActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SymCipherActor.h; sourceTree = "<group>"; };
+		E1C9BBB51CC480E400ADE365 /* SymCipherActor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SymCipherActor.m; sourceTree = "<group>"; };
+		E1C9BBC51CC4BA0700ADE365 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1C9BBC61CC4BA0700ADE365 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1C9BBCA1CC4BAE000ADE365 /* MainEffectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainEffectView.h; sourceTree = "<group>"; };
+		E1C9BBCB1CC4BAE000ADE365 /* MainEffectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainEffectView.m; sourceTree = "<group>"; };
+		E1F7A92B1CB7097100FE2183 /* PKIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PKIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1F7A9281CB7097100FE2183 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C09325481CC9C56700476928 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C09325491CC9C57400476928 /* SuperViewController.h */,
+				C093254A1CC9C57400476928 /* SuperViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C093254F1CCA024300476928 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				C09325501CCA024300476928 /* HMacActor.h */,
+				C09325511CCA024300476928 /* HMacActor.m */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		E1C9BB6E1CC47C7400ADE365 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BB6F1CC47C7400ADE365 /* AppDelegate.h */,
+				E1C9BB701CC47C7400ADE365 /* AppDelegate.m */,
+				E1C9BB711CC47C7400ADE365 /* Assets.xcassets */,
+				E1C9BB721CC47C7400ADE365 /* LaunchScreen.storyboard */,
+				E1C9BB741CC47C7400ADE365 /* Main.storyboard */,
+				E1C9BB761CC47C7400ADE365 /* Info.plist */,
+				E1C9BB771CC47C7400ADE365 /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E1C9BB821CC480E400ADE365 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBC31CC4BA0700ADE365 /* Main */,
+				E1C9BBAB1CC480E400ADE365 /* SymCipher */,
+				E1C9BB831CC480E400ADE365 /* ASymCipher */,
+				E1C9BB981CC480E400ADE365 /* PwdCipher */,
+				E1C9BB8C1CC480E400ADE365 /* Digest */,
+				E1C9BB9F1CC480E400ADE365 /* Signature */,
+				E1C9BB931CC480E400ADE365 /* Mac */,
+				E1C9BBA61CC480E400ADE365 /* SuperClass */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		E1C9BB831CC480E400ADE365 /* ASymCipher */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BB841CC480E400ADE365 /* Actor */,
+				E1C9BB891CC480E400ADE365 /* Controller */,
+				E1C9BB8A1CC480E400ADE365 /* Model */,
+				E1C9BB8B1CC480E400ADE365 /* View */,
+			);
+			path = ASymCipher;
+			sourceTree = "<group>";
+		};
+		E1C9BB841CC480E400ADE365 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BB851CC480E400ADE365 /* KeyPairGenerator.h */,
+				E1C9BB861CC480E400ADE365 /* KeyPairGenerator.m */,
+				E1C9BB871CC480E400ADE365 /* RSACipherActor.h */,
+				E1C9BB881CC480E400ADE365 /* RSACipherActor.m */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		E1C9BB891CC480E400ADE365 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E14C3E641CC607A10037EB83 /* AsymCipherController.h */,
+				E14C3E651CC607A10037EB83 /* AsymCipherController.m */,
+				E14C3E671CC6087A0037EB83 /* AsymCipherDetailController.h */,
+				E14C3E681CC6087A0037EB83 /* AsymCipherDetailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C9BB8A1CC480E400ADE365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C9BB8B1CC480E400ADE365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C9BB8C1CC480E400ADE365 /* Digest */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BB8D1CC480E400ADE365 /* Actor */,
+				E1C9BB901CC480E400ADE365 /* Controller */,
+				E1C9BB911CC480E400ADE365 /* Model */,
+				E1C9BB921CC480E400ADE365 /* View */,
+			);
+			path = Digest;
+			sourceTree = "<group>";
+		};
+		E1C9BB8D1CC480E400ADE365 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BB8E1CC480E400ADE365 /* DigestActor.h */,
+				E1C9BB8F1CC480E400ADE365 /* DigestActor.m */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		E1C9BB901CC480E400ADE365 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C09325421CC9B5E400476928 /* DigestController.h */,
+				C09325431CC9B5E400476928 /* DigestController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C9BB911CC480E400ADE365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C9BB921CC480E400ADE365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C9BB931CC480E400ADE365 /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				C093254F1CCA024300476928 /* Actor */,
+				E1C9BB951CC480E400ADE365 /* Controller */,
+				E1C9BB961CC480E400ADE365 /* Model */,
+				E1C9BB971CC480E400ADE365 /* View */,
+			);
+			path = Mac;
+			sourceTree = "<group>";
+		};
+		E1C9BB951CC480E400ADE365 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C09325531CCA05F500476928 /* HMacController.h */,
+				C09325541CCA05F500476928 /* HMacController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C9BB961CC480E400ADE365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C9BB971CC480E400ADE365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C9BB981CC480E400ADE365 /* PwdCipher */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BB991CC480E400ADE365 /* Actor */,
+				E1C9BB9C1CC480E400ADE365 /* Controller */,
+				E1C9BB9D1CC480E400ADE365 /* Model */,
+				E1C9BB9E1CC480E400ADE365 /* View */,
+			);
+			path = PwdCipher;
+			sourceTree = "<group>";
+		};
+		E1C9BB991CC480E400ADE365 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BB9A1CC480E400ADE365 /* PwdCipherActor.h */,
+				E1C9BB9B1CC480E400ADE365 /* PwdCipherActor.m */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		E1C9BB9C1CC480E400ADE365 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9C35F1CC7304000E18CF7 /* PwdCipherController.h */,
+				C0C9C3601CC7304000E18CF7 /* PwdCipherController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C9BB9D1CC480E400ADE365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C9BB9E1CC480E400ADE365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C9BB9F1CC480E400ADE365 /* Signature */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBA01CC480E400ADE365 /* Actor */,
+				E1C9BBA31CC480E400ADE365 /* Controller */,
+				E1C9BBA41CC480E400ADE365 /* Model */,
+				E1C9BBA51CC480E400ADE365 /* View */,
+			);
+			path = Signature;
+			sourceTree = "<group>";
+		};
+		E1C9BBA01CC480E400ADE365 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBA11CC480E400ADE365 /* SignatureActor.h */,
+				E1C9BBA21CC480E400ADE365 /* SignatureActor.m */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		E1C9BBA31CC480E400ADE365 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C09325451CC9BA2B00476928 /* SignatureController.h */,
+				C09325461CC9BA2B00476928 /* SignatureController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C9BBA41CC480E400ADE365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C9BBA51CC480E400ADE365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C9BBA61CC480E400ADE365 /* SuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				C09325481CC9C56700476928 /* Controller */,
+				E1C9BBA71CC480E400ADE365 /* Base64 */,
+			);
+			path = SuperClass;
+			sourceTree = "<group>";
+		};
+		E1C9BBA71CC480E400ADE365 /* Base64 */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBA81CC480E400ADE365 /* GTMBase64.h */,
+				E1C9BBA91CC480E400ADE365 /* GTMBase64.m */,
+				E1C9BBAA1CC480E400ADE365 /* GTMDefines.h */,
+			);
+			path = Base64;
+			sourceTree = "<group>";
+		};
+		E1C9BBAB1CC480E400ADE365 /* SymCipher */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBAC1CC480E400ADE365 /* Actor */,
+				E1C9BBB61CC480E400ADE365 /* Controller */,
+				E1C9BBB71CC480E400ADE365 /* Model */,
+				E1C9BBB81CC480E400ADE365 /* View */,
+			);
+			path = SymCipher;
+			sourceTree = "<group>";
+		};
+		E1C9BBAC1CC480E400ADE365 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBB31CC480E400ADE365 /* SuperClass */,
+				E1C9BBAD1CC480E400ADE365 /* AESCipherActor.h */,
+				E1C9BBAE1CC480E400ADE365 /* AESCipherActor.m */,
+				E1C9BBAF1CC480E400ADE365 /* DESCipherActor.h */,
+				E1C9BBB01CC480E400ADE365 /* DESCipherActor.m */,
+				E1C9BBB11CC480E400ADE365 /* RC4CipherActor.h */,
+				E1C9BBB21CC480E400ADE365 /* RC4CipherActor.m */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		E1C9BBB31CC480E400ADE365 /* SuperClass */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBB41CC480E400ADE365 /* SymCipherActor.h */,
+				E1C9BBB51CC480E400ADE365 /* SymCipherActor.m */,
+			);
+			path = SuperClass;
+			sourceTree = "<group>";
+		};
+		E1C9BBB61CC480E400ADE365 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1A0FBDC1CC4C92600B8CDEC /* SymCipherController.h */,
+				E1A0FBDD1CC4C92600B8CDEC /* SymCipherController.m */,
+				E1A0FBDF1CC4CECB00B8CDEC /* SymCipherDetailController.h */,
+				E1A0FBE01CC4CECB00B8CDEC /* SymCipherDetailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C9BBB71CC480E400ADE365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C9BBB81CC480E400ADE365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1C9BBC31CC4BA0700ADE365 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBC41CC4BA0700ADE365 /* Controller */,
+				E1C9BBC71CC4BA0700ADE365 /* Model */,
+				E1C9BBC81CC4BA0700ADE365 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E1C9BBC41CC4BA0700ADE365 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBC51CC4BA0700ADE365 /* ViewController.h */,
+				E1C9BBC61CC4BA0700ADE365 /* ViewController.m */,
+				E14C3E6A1CC61AE10037EB83 /* KeyPairDispatchController.h */,
+				E14C3E6B1CC61AE10037EB83 /* KeyPairDispatchController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E1C9BBC71CC4BA0700ADE365 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E1C9BBC81CC4BA0700ADE365 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BBCA1CC4BAE000ADE365 /* MainEffectView.h */,
+				E1C9BBCB1CC4BAE000ADE365 /* MainEffectView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1F7A9221CB7097100FE2183 = {
+			isa = PBXGroup;
+			children = (
+				E1F7A92D1CB7097100FE2183 /* PKIDemo */,
+				E1F7A92C1CB7097100FE2183 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F7A92C1CB7097100FE2183 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1F7A92B1CB7097100FE2183 /* PKIDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1F7A92D1CB7097100FE2183 /* PKIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E1C9BB6E1CC47C7400ADE365 /* Main */,
+				E1C9BB821CC480E400ADE365 /* Module */,
+				E1F7A92E1CB7097100FE2183 /* Supporting Files */,
+			);
+			path = PKIDemo;
+			sourceTree = "<group>";
+		};
+		E1F7A92E1CB7097100FE2183 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1F7A92A1CB7097100FE2183 /* PKIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1F7A9421CB7097100FE2183 /* Build configuration list for PBXNativeTarget "PKIDemo" */;
+			buildPhases = (
+				E1F7A9271CB7097100FE2183 /* Sources */,
+				E1F7A9281CB7097100FE2183 /* Frameworks */,
+				E1F7A9291CB7097100FE2183 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PKIDemo;
+			productName = PKIDemo;
+			productReference = E1F7A92B1CB7097100FE2183 /* PKIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1F7A9231CB7097100FE2183 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ezfen;
+				TargetAttributes = {
+					E1F7A92A1CB7097100FE2183 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = X6RJBZ5YJS;
+					};
+				};
+			};
+			buildConfigurationList = E1F7A9261CB7097100FE2183 /* Build configuration list for PBXProject "PKIDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1F7A9221CB7097100FE2183;
+			productRefGroup = E1F7A92C1CB7097100FE2183 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1F7A92A1CB7097100FE2183 /* PKIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1F7A9291CB7097100FE2183 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1C9BB7C1CC47C7400ADE365 /* Info.plist in Resources */,
+				E1C9BB7B1CC47C7400ADE365 /* Main.storyboard in Resources */,
+				E1C9BB791CC47C7400ADE365 /* Assets.xcassets in Resources */,
+				E1C9BB7A1CC47C7400ADE365 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1F7A9271CB7097100FE2183 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C093254B1CC9C57400476928 /* SuperViewController.m in Sources */,
+				E1C9BBC01CC480E400ADE365 /* DESCipherActor.m in Sources */,
+				C09325551CCA05F500476928 /* HMacController.m in Sources */,
+				E1A0FBE11CC4CECB00B8CDEC /* SymCipherDetailController.m in Sources */,
+				C0C9C3611CC7304000E18CF7 /* PwdCipherController.m in Sources */,
+				E1C9BBB91CC480E400ADE365 /* KeyPairGenerator.m in Sources */,
+				C09325471CC9BA2B00476928 /* SignatureController.m in Sources */,
+				E14C3E661CC607A10037EB83 /* AsymCipherController.m in Sources */,
+				E1C9BBBA1CC480E400ADE365 /* RSACipherActor.m in Sources */,
+				E14C3E691CC6087A0037EB83 /* AsymCipherDetailController.m in Sources */,
+				E1C9BB781CC47C7400ADE365 /* AppDelegate.m in Sources */,
+				E1C9BBCC1CC4BAE000ADE365 /* MainEffectView.m in Sources */,
+				E14C3E6C1CC61AE10037EB83 /* KeyPairDispatchController.m in Sources */,
+				E1C9BBC21CC480E400ADE365 /* SymCipherActor.m in Sources */,
+				E1C9BBBF1CC480E400ADE365 /* AESCipherActor.m in Sources */,
+				E1C9BBC91CC4BA0700ADE365 /* ViewController.m in Sources */,
+				E1C9BBBC1CC480E400ADE365 /* PwdCipherActor.m in Sources */,
+				C09325521CCA024300476928 /* HMacActor.m in Sources */,
+				C09325441CC9B5E400476928 /* DigestController.m in Sources */,
+				E1C9BB7D1CC47C7500ADE365 /* main.m in Sources */,
+				E1C9BBC11CC480E400ADE365 /* RC4CipherActor.m in Sources */,
+				E1C9BBBD1CC480E400ADE365 /* SignatureActor.m in Sources */,
+				E1C9BBBE1CC480E400ADE365 /* GTMBase64.m in Sources */,
+				E1A0FBDE1CC4C92600B8CDEC /* SymCipherController.m in Sources */,
+				E1C9BBBB1CC480E400ADE365 /* DigestActor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1C9BB721CC47C7400ADE365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C9BB731CC47C7400ADE365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E1C9BB741CC47C7400ADE365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1C9BB751CC47C7400ADE365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1F7A9401CB7097100FE2183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1F7A9411CB7097100FE2183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1F7A9431CB7097100FE2183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/PKIDemo/Main/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezfen.PKIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E1F7A9441CB7097100FE2183 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/PKIDemo/Main/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ezfen.PKIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1F7A9261CB7097100FE2183 /* Build configuration list for PBXProject "PKIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F7A9401CB7097100FE2183 /* Debug */,
+				E1F7A9411CB7097100FE2183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1F7A9421CB7097100FE2183 /* Build configuration list for PBXNativeTarget "PKIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1F7A9431CB7097100FE2183 /* Debug */,
+				E1F7A9441CB7097100FE2183 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1F7A9231CB7097100FE2183 /* Project object */;
+}
